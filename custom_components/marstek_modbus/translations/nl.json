@@ -549,14 +549,6 @@
           "ups": "UPS"
         }
       },
-      "force_mode": {
-        "name": "Geforceerde Modus",
-        "state": {
-          "standby": "Standby",
-          "charge": "Laden",
-          "discharge": "Ontladen"
-        }
-      },
       "grid_standard": {
         "name": "Netstandaard",
         "state": {
@@ -643,14 +635,26 @@
           "friday": "Vrijdag",
           "saturday": "Zaterdag"
         }
+      },
+      "forcible_charge_discharge": {
+        "name": "Geforceerd laden/ontladen",
+        "state": {
+          "stop": "Stop",
+          "charge": "Laden",
+          "discharge": "Ontladen"
+        }
+      },
+      "rs485_control_mode": {
+        "name": "RS485 Bedrijfsmodus",
+        "state": {
+          "enable": "Inschakelen",
+          "disable": "Uitschakelen"
+        }
       }
     },
     "switch": {
       "backup_function": {
         "name": "Back-up functie"
-      },
-      "rs485_control_mode": {
-        "name": "RS485 Bedrijfsmodus"
       },
       "schedule_1_enabled": {
         "name": "Schema 1 Ingeschakeld"

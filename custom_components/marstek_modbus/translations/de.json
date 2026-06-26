@@ -542,14 +542,6 @@
           "ups": "UPS"
         }
       },
-      "force_mode": {
-        "name": "Erzwungener Modus",
-        "state": {
-          "standby": "Standby",
-          "charge": "Laden",
-          "discharge": "Entladen"
-        }
-      },
       "grid_standard": {
         "name": "Netzstandard",
         "state": {
@@ -636,14 +628,26 @@
           "friday": "Freitag",
           "saturday": "Samstag"
         }
+      },
+      "forcible_charge_discharge": {
+        "name": "Erzwungenes Laden/Entladen",
+        "state": {
+          "stop": "Stopp",
+          "charge": "Laden",
+          "discharge": "Entladen"
+        }
+      },
+      "rs485_control_mode": {
+        "name": "RS485-Steuermodus",
+        "state": {
+          "enable": "Aktivieren",
+          "disable": "Deaktivieren"
+        }
       }
     },
     "switch": {
       "backup_function": {
         "name": "Backup-Funktion"
-      },
-      "rs485_control_mode": {
-        "name": "RS485-Steuermodus"
       },
       "schedule_1_enabled": {
         "name": "Zeitplan 1 aktivieren"
