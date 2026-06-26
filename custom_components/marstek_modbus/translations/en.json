@@ -510,7 +510,6 @@
       "mppt4_power": {
         "name": "MPPT4 Power"
       },
-
       "bluetooth_status": {
         "name": "Bluetooth Status",
         "state": {
@@ -527,16 +526,15 @@
         "name": "Modbus Connection"
       },
       "wifi_status": {
-        "name": "WiFi Status" 
+        "name": "WiFi Status"
       },
       "cloud_status": {
-        "name": "Cloud Status" 
+        "name": "Cloud Status"
       },
       "discharge_limit_mode": {
-        "name": "Discharge Limit" 
+        "name": "Discharge Limit"
       }
     },
-
     "select": {
       "user_work_mode": {
         "name": "User Work Mode",
@@ -545,14 +543,6 @@
           "anti_feed": "Self Consumption",
           "trade_mode": "AI Optimization",
           "ups": "UPS"
-        }
-      },
-      "force_mode": {
-        "name": "Force Mode",
-        "state": {
-          "standby": "Standby",
-          "charge": "Charge",
-          "discharge": "Discharge"
         }
       },
       "grid_standard": {
@@ -641,15 +631,26 @@
           "friday": "Friday",
           "saturday": "Saturday"
         }
+      },
+      "forcible_charge_discharge": {
+        "name": "Forcible Charge/Discharge",
+        "state": {
+          "stop": "Stop",
+          "charge": "Charge",
+          "discharge": "Discharge"
+        }
+      },
+      "rs485_control_mode": {
+        "name": "RS485 Control Mode",
+        "state": {
+          "enable": "Enable",
+          "disable": "Disable"
+        }
       }
     },
-
     "switch": {
       "backup_function": {
         "name": "Backup Function"
-      },
-      "rs485_control_mode": {
-        "name": "RS485 Control Mode"
       },
       "schedule_1_enabled": {
         "name": "Schedule 1 Enabled"
@@ -710,7 +711,6 @@
       "schedule_6_start": {
         "name": "Schedule 6 Start"
       },
-
       "schedule_1_end": {
         "name": "Schedule 1 End"
       },
